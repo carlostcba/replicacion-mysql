@@ -39,7 +39,7 @@ mysql -u root -p
 
 Luego ejecuta los siguientes comandos para crear el usuario `replicator` y otorgarle los privilegios necesarios:
 ```sql
-CREATE USER 'replicator'@'%' IDENTIFIED BY 'Oem2024*';
+CREATE USER 'replicator'@'%' IDENTIFIED BY 'passReplicator';
 GRANT REPLICATION SLAVE ON *.* TO 'replicator'@'%';
 FLUSH PRIVILEGES;
 ```
@@ -118,7 +118,7 @@ Ejecuta el siguiente comando para configurar la replicación en el esclavo, usan
 CHANGE REPLICATION SOURCE TO
 SOURCE_HOST='10.0.0.111',
 SOURCE_USER='replicator',
-SOURCE_PASSWORD='Oem2024*',
+SOURCE_PASSWORD='passReplicator',
 SOURCE_LOG_FILE='mysql-bin.000001',
 SOURCE_LOG_POS=892,
 GET_MASTER_PUBLIC_KEY=1;
