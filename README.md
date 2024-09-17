@@ -135,7 +135,7 @@ START REPLICA;
 
 Puedes verificar el estado de la replicación con:
 ```sql
-START REPLICA STATUS\G;
+SHOW REPLICA STATUS\G;
 ```
 
 Asegúrate de que el estado sea `Running` y que no haya errores.
