@@ -121,7 +121,7 @@ SOURCE_USER='replicator',
 SOURCE_PASSWORD='passReplicator',
 SOURCE_LOG_FILE='mysql-bin.000001',
 SOURCE_LOG_POS=892,
-GET_MASTER_PUBLIC_KEY=1;
+GET_SOURCE_PUBLIC_KEY =1;
 ```
 
 ### 5. Iniciar la Replicación
