@@ -57,7 +57,7 @@ Anota la salida, ya que necesitarás esta información para configurar el esclav
 +------------------+-----------+-----------+
 | Log_name         | File_size | Encrypted |
 +------------------+-----------+-----------+
-| mysql-bin.000001 |       154 | No        |
+| mysql-bin.000001 |       892 | No        |
 +------------------+-----------+-----------+
 ```
 
