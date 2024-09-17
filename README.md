@@ -49,6 +49,7 @@ FLUSH PRIVILEGES;
 Bloquea las tablas y muestra los logs binarios:
 ```sql
 FLUSH TABLES WITH READ LOCK;
+SHOW BINARY LOG STATUS\G
 SHOW BINARY LOGS;
 ```
 
